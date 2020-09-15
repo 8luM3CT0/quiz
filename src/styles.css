@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'BungeeOutline-Regular';
+    src: local('BungeeOutline-Regular'), url(./fonts/BungeeOutline-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bungee-Regular';
+    src: local('Bungee-Regular'), url(./fonts/Bungee-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Bungee-Regular';
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    text-align: left;
+    color: cornflowerblue;
+}
+
+header {
+    height: 70px;
+    color: red;
+    margin-bottom: 30px;
+    border-bottom: 3.6px solid rgba(0, 0, 0, 0.363);
+    outline-style: groove;
+    background-color: burlywood;
+    background: url('MV5BNDFkMzdkNGYtMzE3MC00YzdhLTkzNTctOTYxMzcyYmIxN2Y2XkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg');
+    font-size: larger;
+    text-align: center;
+    font-family: 'Bungee-Regular';
+}
+
+.mainDiv {
+    height: auto;
+    font-size: 15px;
+    background-color: blueviolet;
+    color: thistle;
+    margin: auto;
+    width: 700px;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-family: 'Bungee-Regular';
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: lemonchiffon;
+    margin-right: 3px;
+    padding: 8px;
+    align-items: center;
+    font-family: 'Bungee-Regular';
+    font-size: small;
+}
+
+button:hover {
+    border: none;
+    outline: none;
+    background-color: lightcoral;
+    color: darkgreen;
+    font-size: 17.5px;
+    align-items: center;
+    font-size: small;
+}
